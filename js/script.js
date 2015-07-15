@@ -7,7 +7,7 @@ $(function() {
 				container.append('</div>');
 				container.append('<div class="col-sm-4">');
 			}
-			container.find('.col-sm-4:last-child').append('<div title="#' + (key+1) + '" class="tweet" id="tweet-' + value.id_str + '" tweetID="' + value.id_str + '"></div>');
+			container.find('.col-sm-4:last-child').append('<div class="tweet" id="tweet-' + value.id_str + '" tweetID="' + value.id_str + '"></div>');
 			twttr.widgets.createTweet(
 				value.id_str,
 				document.getElementById('tweet-' + value.id_str),
