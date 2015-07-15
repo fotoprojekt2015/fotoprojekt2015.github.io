@@ -1,0 +1,52 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #222;
+  padding: 0;
+  padding-top: 70px;
+}
+
+#result-container {
+  margin: 0;
+}
+
+a, a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 5em;
+  color: #fff;
+}
+
+h2 {
+  color: #333;
+  font-size: 3em;
+}
+
+.head {
+  margin-bottom: 4em;
+  color: #999;
+}
+
+.footer {
+  background-color: #000;
+  color: #999;
+  border-top: 1px solid #555;
+  margin-top: 3em;
+  padding: 5em 0 5em;
+}
+
+.tweet {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 2em;
+}
