@@ -22,9 +22,14 @@ a, a:hover {
   color: #fff;
 }
 
-h1 {
-  font-size: 5em;
+h1{
   color: #fff;
+}
+
+@media (min-width:768px) {
+  h1 {
+    font-size: 5em;
+  }
 }
 
 .head {
