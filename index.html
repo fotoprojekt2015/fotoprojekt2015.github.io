@@ -34,7 +34,7 @@
 		<div class="container-fluid">
 			<div class="head">
 				<h1>Top 10 Fotoprojekt2015</h1>
-				<p>Top 10 der aktuellen Woche vom <a target="_blank" href="http://fotoprojekt2015.jimdo.com">Fotoprojekt2015</a>.</p>
+				<p>Top 10 der aktuellen Woche vom <a target="_blank" href="http://fotoprojekt2015.jimdo.com">Fotoprojekt2015</a> <span class="label label-default modal-opener" data-toggle="modal" data-target=".bs-example-modal-lg">inoffiziell</span></p>
 			</div>
 
 			<div id="result-container" class="row"></div>
@@ -42,9 +42,47 @@
 			<div class="clearfix"></div>
 
 			<footer class="footer">
+				<p><span class="label label-danger modal-opener" data-toggle="modal" data-target=".bs-example-modal-lg">Dieses Top10-Projekt wird nicht vom Projektinitiator betrieben.</span></p>
 				<p><a href="https://fotoprojekt2015.github.io">fotoprojekt2015.github.io</a> by <a href="https://twitter.com/iherzdresden">@iherzdresden</a>.</p>
 			</footer>
 		</div>
+
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<h2>Inoffiziell!</h2>
+					<p>Diese Seite dient dazu, die aktuellen Wochen-Top10 des <a target="_blank" href="http://fotoprojekt2015.jimdo.com">Fotoprojekt2015</a> anzuzeigen. Die Initiatoren und zahlreiche Teilnehmer des Projekts distanzieren sich von dieser Top10-Seite (siehe z.B. <a target="_blank" href="https://twitter.com/knightlyart/status/621369196711182336">hier</a>, <a target="_blank" href="https://twitter.com/quergerade/status/621381868273930240">hier</a> oder <a target="_blank" href="https://twitter.com/Himbeerrot/status/621382623944949760">hier</a>). Eine offizielle Begründung der Initiatoren wurde <a target="_blank" href="http://fotoprojekt2015.jimdo.com/2015/07/15/klarstellung/">in einer Klarstellung bekanntgegeben</a>. Wir haben unsere versucht, unsere Motivation dort mit einem Kommentar zu erklären, welchen wir hier wiedergeben wollen:</p>
+
+					<blockquote>
+						<p>Zunächst einmal sorry, dass wir mit dem Projekt so viel negative Reaktionen ausgelöst haben. Das war genausowenig unser Ziel wie das, einen Wettbewerbscharakter hinzuzufügen.</p>
+
+						<p>Motivation war zum einen, dass uns selber interessiert hat, welche teilnehmenden Bilder besonders oft gemocht werden (man kann leider in der Twittersuche nicht nach Favs sortieren).Das haben wir dann programmiert und dachten uns, dass man es ja einfach veröffentlichen kann. Hierbei geht es aber überhaupt nicht um einen Wettbewerbsgedanken ("Äätsch, ich habe mehr Favs als du!"), sondern darum zu ermitteln, welche Fotos das Wochenmotiv offensichtlich am ehesten und/oder am besten getroffen haben.</p>
+
+						<p>Ein weiterer Punkt ist: Twitter ist eine höchstöffentliche Plattform, das ist ein wesentlicher Baustein seiner Philosophie. Außerdem bietet Twitter eine sehr wohlkonsumierbare API an - die Daten sind also aus technischer Sicht auch sehr einfach "anzuzapfen" und auszuwerten. Bitte nicht falsch verstehen, aber eure Kritik ist ein wenig, als würde man eine öffentliche Veranstaltung ausrichten und sich darüber ärgern, wenn andere Leute darüber berichten, Fotos davon machen oder die ganze Sache aus anderen Perspektiven zu dokumentieren oder zu bewerten.</p>
+
+						<p>Schließlich kannten wir die Archivseite. Zum einen fanden wir diese (rein subjektiv!) ein wenig anstrengend - oder sagen wir besser: eigen - in seiner Gestaltung. Außerdem fehlte uns auch wieder hier die Möglichkeit zu erfassen, welche Bilder die meisten Favs erhält (und damit das Motto am besten interpretiert).</p>
+
+						<p>Auf jeden Fall verstehen wir eure Kritik und eure Bedenken, teilen diese aber nicht - basierend auf der vorhergehenden Argumentation. Wir werden deshalb einen Hinweis auf unserer github-Projektseite einbauen, der kennzeichnet, dass die Seite nicht vom Projektinitiator stammt und auch nicht gut geheißen wird. Wir werden das Projekt aber nicht offline schalten. Und wir respektieren, dass ihr uns (wahrscheinlich ist @iherzdresden gemeint?) auf Twitter geblockt habt - no Problemo.</p>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+
+<style type="text/css">
+.modal-opener {
+	cursor: pointer;
+}
+.modal-content {
+	background-color: #222;
+	padding: 3em 3em 4em;
+	text-align: left;
+	color: #ccc;
+}
+.modal-content h2 {
+	margin-bottom: 2em;
+	color: #fff;
+}
+</style>
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
